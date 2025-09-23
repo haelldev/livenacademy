@@ -1,7 +1,7 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
+// https://vite.dev/config/
 export default defineConfig({
-  base: '/livenacademy/', // ← nome do seu repositório
-  plugins: [react()]
-});
+  plugins: [react()],
+})
